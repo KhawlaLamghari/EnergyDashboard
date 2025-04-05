@@ -86,6 +86,7 @@ with st.expander("ℹ️ About this chart"):
         - **Dataset**: Energy consumption in **terajoules (TJ)**.
         - **X-axis**: Energy scenarios from 0.0 to 0.4.
         - **Y-axis**: Phosphate scenarios from 0.0 (bottom) to 4.0 (top).
+        The heatmap is structured as a matrix of scenarios: the X-axis represents variations in the energy scenario, while the Y-axis captures changes in the phosphate scenario. Each cell reflects the outcome at a specific (energy, phosphate) combination.
         - **Cell values**: Energy used per scenario.
         - 🔴 Red dots show values above your threshold.
         """)
@@ -94,6 +95,7 @@ with st.expander("ℹ️ About this chart"):
         - **Dataset**: Costs in **millions of MAD (MMAD)**.
         - **X-axis**: Energy scenarios from 0.0 to 0.4.
         - **Y-axis**: Phosphate scenarios from 0.0 (bottom) to 4.0 (top).
+        The heatmap is structured as a matrix of scenarios: the X-axis represents variations in the energy scenario, while the Y-axis captures changes in the phosphate scenario. Each cell reflects the outcome at a specific (energy, phosphate) combination.
         - **Cell values**: Projected or actual financial costs.
         - 🔴 Red dots mark high-cost areas above threshold.
         """)
