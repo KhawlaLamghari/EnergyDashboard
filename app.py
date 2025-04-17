@@ -236,7 +236,7 @@ st.markdown("<div style='height:50px;'></div>", unsafe_allow_html=True)
 st.markdown("""
 ---
 <div style='text-align: center; font-size: 14px; color: gray;'>
-    Made by <strong> Khawla</strong> ✅ <br>
+    Made by <strong> Khawla</strong> 🪷 <br>
     Khawla.Lamghari@um6p.ma
 </div>
 """, unsafe_allow_html=True)
