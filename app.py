@@ -175,12 +175,12 @@ fig.update_layout(
 fig.update_yaxes(
     tickmode="array",
     tickvals=[0, 1, 2, 3, 4],
-    ticktext=["0.0", "1.0", "2.0", "3.0", "4.0"]
+    ticktext=["PO", "P1", "P2", "P3", "P4"]
 )
 fig.update_xaxes(
     tickmode="array",
     tickvals=[0.0, 0.1, 0.2, 0.3, 0.4],
-    ticktext=["0.0", "0.1", "0.2", "0.3", "0.4"],
+    ticktext=["E0", "E1", "E2", "E3", "E4"],
     tickangle=0,
     tickfont=dict(size=12)
 )
@@ -193,11 +193,11 @@ with st.expander("📘 Energy scenario"):
     st.markdown("""
     | Scenario | Description                         |
     |------|-------------------------------------|
-    | X.0  | Business-as-usual scenario           |
-    | X.1  | Regenerative breaking system installation in mine haul trucks (MHTs)     |
-    | X.2  | MHTs, loaders and D11 bulldozers electrification using the Moroccan grid         |
-    | X.3  | MHTs, loaders and D11 bulldozers electrification using the wind electricity               |
-    | X.4  | MHTs, loaders and D11 bulldozers running using green hydrogen                  |
+    | E0  | Business-as-usual scenario           |
+    | E1  | Regenerative breaking system installation in mine haul trucks (MHTs)     |
+    | E2  | MHTs, loaders and D11 bulldozers electrification using the Moroccan grid         |
+    | E3  | MHTs, loaders and D11 bulldozers electrification using the wind electricity               |
+    | E4  | MHTs, loaders and D11 bulldozers running using green hydrogen                  |
     """)
 
 
@@ -205,11 +205,11 @@ with st.expander("🧪 Phosphate Scenario Legend"):
     st.markdown("""
     | Scenario | Description                         |
     |------|-------------------------------------|
-    | 0.Y  | Baseline phosphate production       |
-    | 1.Y  | Extracting the deposit non-extracted seams           |
-    | 2.Y  | Preventing phosphate from dissipation in DPWR and SPWR      |
-    | 3.Y  | Extracting phosphate from old spoil piles (Fr.: cavaliers)               |
-    | 4.Y  | Integrated scenario |
+    | P0  | Baseline phosphate production       |
+    | P1  | Extracting the deposit non-extracted seams           |
+    | P2  | Preventing phosphate from dissipation in DPWR and SPWR      |
+    | P3  | Extracting phosphate from old spoil piles (Fr.: cavaliers)               |
+    | P4  | Integrated scenario |
     """)
 
 
